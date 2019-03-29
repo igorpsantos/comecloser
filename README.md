@@ -1,2 +1,2 @@
 # comecloser
-Repositorio do projeto SOFTWARE COM MATCH da aula da disciplina de desenvolvimento de software
+Repositorio do projeto Software com match da aula da disciplina de desenvolvimento de software
