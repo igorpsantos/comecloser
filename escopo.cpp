@@ -3,30 +3,26 @@
 using namespace std;
 
 class perfil{
-  int idPerfil;
   string nome;
   string email; // validacao para criacao de perfil a partir do email da faculdade
   char genero;
   int idade;
-  string local;
-  string cinema;
-  string musica;
-  string hobbies;
+  string local; // curitiba
   string curso;
+  string atributo1; // o que gosta de fazer 
+  string atributo2; // se gosta de sair ou ficar em casa
+  string atributo3; // se gosta de animais ou não
+  string atributo4; // amizade / relacionamento serio
   public:
     perfil(); // construtor
-    mostra_perfil();
-    edita_perfil();
-    exclui_perfil();
-    
+    busca(perfil a);
 };
 
-class atributos{
-  int atb1,atb2,atb3,atb4,atb5,atb6;
+class Atributos : perfil{
+  int atb1,atb2,atb3,atb4;
   public:
-    atributos(perfil a); // recebe como parametro o perfil de um usuario
-    int getAproximacaoUsuario();
-    void imprime_relatorio(int idperfil);
+    Atributos(perfil a); // recebe como parametro o perfil de um usuario
+    
 };
 
 void learquivo(file *arquivo);
